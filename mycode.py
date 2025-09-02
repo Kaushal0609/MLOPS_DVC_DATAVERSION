@@ -15,6 +15,9 @@ df = pd.DataFrame(data)
 new_row = {'name':'GF1','Age':25, 'City': "Canada"}
 df.loc[len(df.index) ] = new_row
 
+new_row = {'name':'Smita','Age':25, 'City': "India"}
+df.loc[len(df.index) ] = new_row
+
 # Ensure the data directory exists at the root level
 
 data_dir = 'data'
